@@ -1,0 +1,8 @@
+.AttentionMessage {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    padding: 1.66rem;
+    border-radius: 10px;
+}
