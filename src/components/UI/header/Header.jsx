@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Logo from "../logo/Logo";
+import Navbar from "../navbar/Navbar";
 import classes from './Header.module.css'
 
 const Header = () => {
@@ -8,11 +8,7 @@ const Header = () => {
         <div className={classes.Header}>
             <Logo style={{marginBottom: 20}} />
             
-            <nav className={classes.HeaderBottom}>
-                <Link to="/home" className={classes.HeaderLink}>Главная</Link>
-                <Link to="/projects" className={classes.HeaderLink}>Проекты</Link>
-                <Link to="/about" className={classes.HeaderLink}>О проекте</Link>
-            </nav>
+            <Navbar position = 'header' />
         </div>
     )
 }

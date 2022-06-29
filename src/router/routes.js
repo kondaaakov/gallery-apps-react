@@ -7,3 +7,9 @@ export const routes = [
     {path: '/home', component: <Home />, exact: true},
     {path: '/projects', component: <Projects />, exact: true},
 ]
+
+export const navElements = [
+    {linkTo: '/home', title: 'Главная'},
+    {linkTo: '/projects', title: 'Библиотека'},
+    {linkTo: '/about', title: 'О проекте'},
+]
